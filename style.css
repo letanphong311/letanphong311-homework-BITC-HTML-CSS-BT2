@@ -1,0 +1,74 @@
+
+:root{
+    --text-background: #B84800;
+    --text-color:#FAD232;
+}
+*{
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-1 .div-1-h1{
+    text-align: center;
+    background-color: var(--text-background);
+    color: var(--text-color);
+}
+.div-1-h1:hover{
+    background-color:#d4580a;
+}
+.div-2{
+    background-color: var(--text-background);
+}
+.div-2 .div-2-h2{
+    color:var(--text-color);
+    text-align: center;
+}
+.div-2 .div-2-p{
+    color: white;
+    text-align: center;
+
+}
+.div-2:hover{
+    background-color: #d4580a;
+}
+.div-3{
+    background-color: var(--text-background);
+    text-align: center;
+}
+.div-3-h2{
+    color: var(--text-color);
+}
+.div-3-ul{
+    list-style: none;
+}
+.div-3:hover{
+    background-color: #d4580a;
+}
+.div-4{
+    background-color: var(--text-background);
+    text-align: center;
+}
+.div-4-h2{
+    color: var(--text-color);
+}
+.div-4 .div-4-p{
+    color: white;
+    font-size: 1rem;
+}
+.div-4:hover{
+    background-color: #d4580a;
+}
+.div-5{
+    text-align: center;
+}
+.div-5-button{
+    background-color: #d5be63;
+    color: white;
+    border: 0;
+    height: 50px;
+    width: 120px;
+    font-size: 1rem;
+}
+.div-5-button:hover{
+    background-color: #FAD232;
+}
